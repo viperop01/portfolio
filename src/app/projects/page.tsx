@@ -88,7 +88,7 @@ export default function ProjectsPage() {
                       </Button>
                     )}
                     {project.codeLink && (
-                      <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                      <Button className="border border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent">
                         <Code className="w-4 h-4 mr-2" />
                         Code
                       </Button>
@@ -100,7 +100,7 @@ export default function ProjectsPage() {
           </div>
 
           <div className="text-center mt-12">
-            <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+            <Button className="border border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent px-8 py-3 text-lg">
               View All Projects
             </Button>
           </div>
