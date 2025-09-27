@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio - Full Stack Developer",
-  description: "Full Stack Developer Portfolio showcasing modern web development projects and achievements",
+  title: "Agam Hora - Full Stack Developer",
+  description: "Agam Hora's Portfolio showcasing modern web development projects and achievements",
 };
 
 export default function RootLayout({

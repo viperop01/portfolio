@@ -50,7 +50,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-foreground font-medium">Email</div>
-                    <div className="text-muted-foreground">hello@yourname.com</div>
+                    <div className="text-muted-foreground">agamhora481@gmail.com</div>
                   </div>
                 </div>
 
@@ -95,7 +95,7 @@ export default function ContactPage() {
                     <Linkedin className="w-5 h-5" />
                   </a>
                   <a 
-                    href="mailto:your.email@example.com"
+                    href="mailto:agamhora481@gmail.com"
                     className="flex items-center justify-center w-12 h-12 bg-muted hover:bg-primary hover:text-primary-foreground rounded-full transition-colors"
                   >
                     <Mail className="w-5 h-5" />
