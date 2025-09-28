@@ -91,31 +91,59 @@
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-geist-sans), system-ui, sans-serif;
+    background-color: hsl(240 10% 3.9%);
+    color: hsl(0 0% 98%);
+  }
+  
+  html {
+    background-color: hsl(240 10% 3.9%);
   }
 }
 
 @layer components {
   .bg-gradient-primary {
-    background: var(--gradient-primary);
+    background: linear-gradient(135deg, #3B82F6, #8B5CF6);
   }
   
   .bg-gradient-hero {
-    background: var(--gradient-hero);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
   }
   
   .bg-gradient-card {
-    background: var(--gradient-card);
+    background: linear-gradient(145deg, hsl(240 10% 3.9%), hsl(240 3.7% 15.9%));
   }
   
   .text-gradient-primary {
-    background: var(--gradient-primary);
+    background: linear-gradient(135deg, #3B82F6, #8B5CF6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   
   .shadow-glow {
-    box-shadow: var(--shadow-glow);
+    box-shadow: 0 0 40px rgba(59, 130, 246, 0.15);
+  }
+  
+  /* Fallback styles for dark theme */
+  .bg-background {
+    background-color: hsl(240 10% 3.9%) !important;
+  }
+  
+  .text-foreground {
+    color: hsl(0 0% 98%) !important;
+  }
+  
+  .bg-card {
+    background-color: hsl(240 10% 3.9%) !important;
+    border: 1px solid hsl(240 3.7% 15.9%);
+  }
+  
+  .text-primary {
+    color: hsl(217 91% 60%) !important;
+  }
+  
+  .text-muted-foreground {
+    color: hsl(240 5% 64.9%) !important;
   }
 }
 
