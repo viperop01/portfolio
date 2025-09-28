@@ -31,16 +31,16 @@ export default function ContactPage() {
               Get In Touch
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Have a project in mind or want to collaborate? I'd love to hear from you. Let's create something amazing together.
+              Have a project in mind or want to collaborate? I&apos;d love to hear from you. Let&apos;s create something amazing together.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-2xl font-bold text-foreground mb-6">Let's Connect</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-6">Let&apos;s Connect</h2>
               <p className="text-muted-foreground mb-8">
-                I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                I&apos;m always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
               </p>
 
               <div className="space-y-6 mb-8">

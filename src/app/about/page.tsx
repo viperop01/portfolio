@@ -13,7 +13,7 @@ export default function AboutPage() {
               About Me
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              I'm a passionate full-stack developer with 5+ years of experience creating innovative web applications and user experiences that make a difference.
+              I&apos;m a passionate full-stack developer with 5+ years of experience creating innovative web applications and user experiences that make a difference.
             </p>
           </div>
 
@@ -43,10 +43,10 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-foreground mb-6">My Journey</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Started as a curious computer science student, I've evolved into a versatile developer who loves turning complex problems into simple, beautiful solutions. My experience spans from startups to enterprise projects, always focusing on clean code and exceptional user experiences.
+                  Started as a curious computer science student, I&apos;ve evolved into a versatile developer who loves turning complex problems into simple, beautiful solutions. My experience spans from startups to enterprise projects, always focusing on clean code and exceptional user experiences.
                 </p>
                 <p>
-                  When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or sharing knowledge with the developer community through blog posts and mentoring.
+                  When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open source projects, or sharing knowledge with the developer community through blog posts and mentoring.
                 </p>
               </div>
             </div>

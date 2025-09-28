@@ -49,7 +49,7 @@ const achievements: Achievement[] = [
   },
   {
     title: "Tech Conference Speaker",
-    description: "Presented 'Modern React Patterns' to an audience of 500+ developers at the National Web Development Conference.",
+    description: "Presented &apos;Modern React Patterns&apos; to an audience of 500+ developers at the National Web Development Conference.",
     category: "Speaking",
     date: "October 2023",
     icon: <Users className="w-6 h-6" />
